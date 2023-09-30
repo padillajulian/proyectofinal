@@ -1,0 +1,29 @@
+main{
+                        /* CAROUSEL */
+    .carousel {
+                width: 85%;
+            }  
+            .container-carousel {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                }
+                                .carousel-item img {
+                                                    height: 500px;
+                                                    }
+
+                        /* CORTES-POSTRES-VARIEDADES */
+
+.cortes-postres-variedades{
+                            img{
+                                width: 350px;
+                                height: 300px;
+                                margin-left: 25px;
+                                }
+                                    h3{
+                                        text-align: center;
+                                        font-size: 2.5rem;
+                                        padding: 20px;
+                                    }
+                            }         
+    }

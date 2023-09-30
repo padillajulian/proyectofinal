@@ -1,0 +1,30 @@
+main {
+    .act-comunes {
+                display: flex;
+                justify-content: center;
+                margin-bottom: -50px;
+                margin-right: 10px;
+                    img{
+                    width: 300px;
+                    height: 300px;
+                        }
+                }
+                        .act-especiales {
+                                        text-align: center;
+                                        font-size: 45px;
+                                        padding: 50px
+                                        }
+                            .actividades-especiales {
+                                                     h2{
+                                                        font-size: 30px;
+                                                        text-align: center;
+                                                        }
+                                                        p{
+                                                            font-size: 20px
+                                                        }
+                                                            img{
+                                                                width: 350px;
+                                                                height: 350px;
+                                                                }
+                                                    }
+    }

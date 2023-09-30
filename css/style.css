@@ -1,0 +1,189 @@
+* {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 560px;
+}
+
+main {
+  padding: 20px;
+}
+
+.subtitulos {
+  font-size: 45px;
+  text-align: center;
+}
+
+.no-te-lo-pierdas {
+  font-size: 50px;
+  text-align: center;
+}
+
+header h1 {
+  color: red;
+  font-size: 30px;
+  background-color: #212529;
+  text-align: center;
+  margin-bottom: 0;
+}
+header nav #logo {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/logo.svg);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+header nav .navbar-collapse {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+footer {
+  background-color: #1e1e1e;
+}
+footer .footer-cherno {
+  font-size: 70px;
+  padding-top: 20px;
+  color: #585858;
+  text-align: center;
+}
+footer .footer-nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+}
+footer .footer-item {
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer .medias {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+footer .medias img {
+  padding-left: 10px;
+}
+
+main section .reservation-button {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #c63b3b;
+  right: 230px;
+  top: 50px;
+}
+main section .image {
+  width: 100%;
+  height: 500px;
+}
+main section .section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .info {
+  text-align: center;
+  font-size: 30px;
+}
+main .mails {
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+main .wpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .wpp img {
+  width: 70px;
+  height: 60px;
+}
+main .wpp p {
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+main .granja img {
+  width: 600px;
+  height: 400px;
+}
+main .granja p {
+  font-size: 20px;
+}
+
+main {
+  /* CAROUSEL */
+  /* CORTES-POSTRES-VARIEDADES */
+}
+main .carousel {
+  width: 85%;
+}
+main .container-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .carousel-item img {
+  height: 500px;
+}
+main .cortes-postres-variedades img {
+  width: 350px;
+  height: 300px;
+  margin-left: 25px;
+}
+main .cortes-postres-variedades h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 20px;
+}
+
+main .act-comunes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -50px;
+  margin-right: 10px;
+}
+main .act-comunes img {
+  width: 300px;
+  height: 300px;
+}
+main .act-especiales {
+  text-align: center;
+  font-size: 45px;
+  padding: 50px;
+}
+main .actividades-especiales h2 {
+  font-size: 30px;
+  text-align: center;
+}
+main .actividades-especiales p {
+  font-size: 20px;
+}
+main .actividades-especiales img {
+  width: 350px;
+  height: 350px;
+}
+
+/*# sourceMappingURL=style.css.map */
